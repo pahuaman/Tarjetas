@@ -1,0 +1,371 @@
+html, body { margin: 0; padding: 0; }
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    background-color: #fdf6e3;
+}
+
+/**** Menu *****/
+header {
+    width: 90%;
+    margin: auto;
+    background-color: #eee8d5;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a img { width: 5rem; height: 3rem; }
+
+header nav .enlaces-menu { display: flex; }
+
+header nav .enlaces-menu li { padding: 0 40px; list-style: none; }
+
+header nav .enlaces-menu li a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+header nav .enlaces-menu li a:hover { color: #fff; }
+
+/*header nav a .fas { 
+    display: none;
+    color: #000;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+header nav a .fas:hover { color: #fff; } */
+
+header  a .fas { 
+    display: none;
+    color: #000;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+header  a .fas:hover { color: #fff; }
+
+/**** Index *****/
+.arrival {
+    width: 90%;
+    margin: auto;
+    height: 300px;
+}
+
+.arrival img { width: 100%; height: 300px; }
+
+.middle-container {
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
+
+.lazes { display: block; padding: 20px; }
+
+.lazes img {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+}
+
+.lazes a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.lazes a:hover { border-bottom: #000 solid 2px; }
+
+.lazes .btn {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+.lazes .btn:hover { background-color: #fff; color: #000; }
+
+.lazes .text { background-color: #93a1a1; padding: 8px 12px; }
+
+/**** acerca de *****/
+.title {
+    text-align: center;
+    font-size: 48px;
+    color: #000;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.container {
+    background-color: #fdf6e3;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card {
+    background-color: #fdf6e3;
+    width: 330px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 26px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card img {
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4 {
+    font-weight: 600;
+}
+
+.container .card p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a,
+.middle-left a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #268bd2;
+}
+
+.container .card a:hover { border-bottom: 1px solid #268bd2; }
+
+/**** Blog *****/
+.middle-page {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.middle-left {
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.middle-left a:hover { border-bottom: 1px solid #268bd2; }
+
+.middle-left img { 
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.middle-right {
+    padding: 0 40px;
+    width: 60%;
+}
+
+.middle-right img { width: 400px; height: 200px; }
+
+/**** Zexal *****/
+.front {
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    background: url('../img/zexal.jpg') no-repeat center center/cover;
+}
+
+.middle-text { 
+    padding: 10px 40px;
+}
+
+.middle-text img { width: 200px; height: 300px; }
+
+/******* FOOTER ********/
+footer {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+    background-color: #eee8d5;
+    color: #000;
+}
+
+.container_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_footer .box_footer .logo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.box_footer .terms {
+    max-width: 350px;
+    font-weight: 500;
+    color: #000;
+    font-size: 18px;
+}
+
+.box_footer h2 {
+    margin-bottom: 20px;
+    color: #7a7a7a;
+    font-weight: 700;
+}
+
+.box_footer a {
+    text-decoration: none;
+    margin-top: 10px;
+    color: #000;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.box_footer a:hover {
+    color: #fff;
+}
+
+.box_footer a .fab { font-size: 20px; }
+
+.box_copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box_copyright p { color: #000; }
+
+.box_copyright hr { height: 1px; background-color: #7a7a7a; }
+
+/******* Responsive ********/
+@media screen and (max-width: 900px) {
+
+    /* Responsive acerca de *
+    header nav a .fas { display: inline-block; } */
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header a .fas { display: inline-block; } 
+
+    header nav .enlaces-menu {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        background: #eee8d5;
+        height: 100%;
+        padding: 10px;
+        opacity: 0.9;
+    }
+
+    header nav .enlaces-menu li { padding: 10px; }
+    
+    /* Responsive blog */
+    .middle-left {
+        padding: 10px;
+        width: 30%;
+        text-align: center;
+    }
+
+    .middle-right {
+        padding: 10px;
+        width: 60%;
+    }
+
+    .middle-left img { 
+        width: 150px;
+        height: 150px;
+        border-radius: 10%;
+    }
+
+    .middle-right img { width: 350px; height: 150px; }
+
+    .middle-left,
+    .middle-right { display: block; font-size: .8rem; }
+
+    /**** Responsive Zexal *****/
+    .front { height: 150px; }
+    
+    .middle-text img { width: 50%; height: 300px; }
+
+    /**** Responsive Index *****/
+    .arrival,
+    .arrival img  { height: 150px; }
+
+    /* Responsive footer */
+    .container_footer .box_footer .logo img { width: 65px; height: 65px; }
+
+    footer,
+    .box_footer .terms,
+    .middle-text,
+    .lazes  { font-size: .8rem; }
+
+}/*900px*/
+
+@media screen and (max-width: 720px) {
+    
+    /*** Responsive blog ****/
+    .middle-page { display: block; }
+
+    .middle-left { width: 50%; margin: auto; }
+
+    .middle-right {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .middle-right img { width: 250px; height: 100px; }
+
+    /**** Responsive Zexal *****/
+    .front { height: 120px; }
+
+    /**** Responsive index *****/
+    .arrival,
+    .arrival img { height: 120px; }
+
+    .lazes img { width: 200px; height: 100px; }
+
+    .lazes a { font-size: 1.5rem; }
+
+    .lazes .btn,
+    .lazes .text { padding: 6px 12px; }
+
+}/*720px*/
+
+header nav .enlaces-menu.activado { display: flex; }
